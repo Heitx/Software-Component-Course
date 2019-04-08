@@ -55,6 +55,22 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>OSGiExtender</artifactId>
             <version>${project.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>dk.sdu.mmmi.cbse</groupId>
+                    <artifactId>OSGiCommonAsteroids</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>OSGiCommonAsteroids</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>OSGiEnemy</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
