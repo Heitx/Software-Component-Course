@@ -20,7 +20,6 @@ public class EnemyPlugin implements IGamePluginService {
         // Add entities to the world
         Entity enemy = createEnemyShip(gameData);
         enemyID = world.addEntity(enemy);
-        
     }
 
     private Entity createEnemyShip(GameData gameData) {
@@ -30,8 +29,8 @@ public class EnemyPlugin implements IGamePluginService {
         float acceleration = 200;
         float maxSpeed = 300;
         float rotationSpeed = 5;
-        float x = gameData.getDisplayWidth() / 1.5F;
-        float y = gameData.getDisplayHeight() / 1.5F;
+        float x = gameData.getDisplayWidth() / 5;
+        float y = gameData.getDisplayHeight() / 5;
         float radians = 3.1415f / 2;
         enemyShip.add(new LifePart(3));
         enemyShip.setRadius(4);

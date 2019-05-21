@@ -60,6 +60,10 @@
                     <groupId>dk.sdu.mmmi.cbse</groupId>
                     <artifactId>OSGiCommonAsteroids</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>dk.sdu.mmmi.cbse</groupId>
+                    <artifactId>OSGiLaser</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
@@ -68,8 +72,38 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
+            <groupId>dk.sdu.mmmi.cbse</groupId>
+            <artifactId>OSGiUpdater</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>dk.sdu.mmmi.cbse</groupId>
+            <artifactId>OSGiLibGDX</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>dk.sdu.mmmi.cbse</groupId>
+            <artifactId>OSGiCore</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>dk.sdu.mmmi.cbse</groupId>
+            <artifactId>OSGiCommonEnemy</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>dk.sdu.mmmi.cbse</groupId>
+            <artifactId>OSGiCommonBullet</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>dk.sdu.mmmi.cbse</groupId>
+            <artifactId>OSGiCommon</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>OSGiEnemy</artifactId>
+            <artifactId>OSGiAsteroidSplitter</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

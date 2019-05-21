@@ -26,7 +26,7 @@ public class AsteroidPlugin implements IGamePluginService {
 
 		// Add entities to the world
 
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 2; i++) {
 			Entity asteroid = createAsteroid(gameData);
 
 			asteroids.add(asteroid);
@@ -36,8 +36,8 @@ public class AsteroidPlugin implements IGamePluginService {
 
 	private Entity createAsteroid(GameData gameData) {
 		float deacceleration = 10;
-		float acceleration = 200;
-		float maxSpeed = 200;
+		float acceleration = 50;
+		float maxSpeed = 50;
 		float rotationSpeed = 10;
 		float x = (float) (Math.random() * gameData.getDisplayWidth());
 		float y = gameData.getDisplayHeight();

@@ -23,7 +23,7 @@ public class Updater implements BundleActivator {
     private final List<Bundle> failedBundles = new ArrayList<>();
 
     public void start(BundleContext bundleContext) throws Exception {
-        Path MODULES_DIRECTORY = Paths.get("/home/dennis/Projects/Software-Component-Course/OGSi-Modules/");
+        Path MODULES_DIRECTORY = Paths.get("/home/dennis/IdeaProjects/Software-Component-Course/OSGi-Modules/");
 
         this.bundleContext = bundleContext;
 

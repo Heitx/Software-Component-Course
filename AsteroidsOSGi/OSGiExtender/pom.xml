@@ -68,7 +68,7 @@
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>OSGiLaser</artifactId>
+            <artifactId>OSGiAsteroidSplitter</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
